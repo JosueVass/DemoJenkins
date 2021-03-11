@@ -7,7 +7,7 @@ pipeline {
             echo "$GIT_BRANCH"
          }
       }
-      stage('HolaMundo') {
+      stage('Docke Build') {
          steps {
             echo 'Hola mundo'
          }
